@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:text="Select which season you want to filter characters by:"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s1sw"
+        android:layout_gravity="center_horizontal"
+        android:text="Season 1"/>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s2sw"
+        android:layout_gravity="center_horizontal"
+        android:text="Season 2"/>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s3sw"
+        android:layout_gravity="center_horizontal"
+        android:text="Season 3"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s4sw"
+        android:layout_gravity="center_horizontal"
+        android:text="Season 4"/>
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/s5sw"
+        android:layout_gravity="center_horizontal"
+        android:text="Season 5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply filter"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:id="@+id/apply_btn"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
